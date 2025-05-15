@@ -17,9 +17,9 @@ DATABASES = {
     }
 }
 
-MEDIA_ROOT = '/shared-volume/media/'
+MEDIA_ROOT = '/home/web/media/'
 MEDIA_URL = '/media/'
-STATIC_ROOT = '/shared-volume/static/'
+STATIC_ROOT = '/home/web/static/'
 STATIC_URL = '/static/'
 
 if not os.path.exists(MEDIA_ROOT):
